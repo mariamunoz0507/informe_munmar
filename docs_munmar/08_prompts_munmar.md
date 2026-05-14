@@ -1,0 +1,1 @@
+Bitacora del uso de IA (si se ultilizo): prompts, correcciones y reflexion.
