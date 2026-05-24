@@ -27,7 +27,7 @@ function App() {
           <ul className="lista-progreso">
             <li className="completado">🟢 Módulo 1: Resumen Ejecutivo (Sony 2014)</li>
             <li className="completado">🟢 Módulo 2: Marco Normativo Aplicable</li>
-            <li className="pendiente">⚪ Módulo 3: Tipificación de Delitos</li>
+            <li className="completado">🟢 Módulo 3: Tipificación de Delitos (Ley 21.459)</li>
             <li className="pendiente">⚪ Módulo 4: Comparación de Marcos</li>
             <li className="pendiente">⚪ Módulo 5: Responsabilidades Legales</li>
             <li className="pendiente">⚪ Módulo 6: Tratamiento de Datos Sensibles</li>
