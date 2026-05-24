@@ -26,7 +26,7 @@ function App() {
           <h3>Progreso del Informe (.md)</h3>
           <ul className="lista-progreso">
             <li className="completado">🟢 Módulo 1: Resumen Ejecutivo (Sony 2014)</li>
-            <li className="pendiente">⚪ Módulo 2: Marco Normativo</li>
+            <li className="completado">🟢 Módulo 2: Marco Normativo Aplicable</li>
             <li className="pendiente">⚪ Módulo 3: Tipificación de Delitos</li>
             <li className="pendiente">⚪ Módulo 4: Comparación de Marcos</li>
             <li className="pendiente">⚪ Módulo 5: Responsabilidades Legales</li>
