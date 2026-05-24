@@ -21,6 +21,21 @@ function App() {
         
         <div className="linea-decorativa"></div>
         
+        {/* Estado de la Documentación en docs_munmar/ */}
+        <div className="estado-documentos">
+          <h3>Progreso del Informe (.md)</h3>
+          <ul className="lista-progreso">
+            <li className="completado">🟢 Módulo 1: Resumen Ejecutivo (Sony 2014)</li>
+            <li className="pendiente">⚪ Módulo 2: Marco Normativo</li>
+            <li className="pendiente">⚪ Módulo 3: Tipificación de Delitos</li>
+            <li className="pendiente">⚪ Módulo 4: Comparación de Marcos</li>
+            <li className="pendiente">⚪ Módulo 5: Responsabilidades Legales</li>
+            <li className="pendiente">⚪ Módulo 6: Tratamiento de Datos Sensibles</li>
+            <li className="pendiente">⚪ Módulo 7: Conclusiones del Caso</li>
+            <li className="pendiente">⚪ Módulo 8: Registro de Prompts de IA</li>
+          </ul>
+        </div>
+        
         {/* Detalles de Entrega Académica */}
         <div className="cuadrante-informacion">
           <div className="bloque-info">
@@ -31,13 +46,6 @@ function App() {
           <div className="bloque-info">
             <p className="etiqueta">Institución</p>
             <p className="valor">INACAP</p>
-          </div>
-          
-          <div className="bloque-info completo">
-            <p className="etiqueta">Documentación Adjunta</p>
-            <p className="valor destacado">
-              8 Módulos de análisis disponibles en carpeta 'docs_munmar/'
-            </p>
           </div>
         </div>
 
