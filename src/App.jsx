@@ -31,7 +31,7 @@ function App() {
             <li className="completado">🟢 Módulo 4: Comparación de Marcos (EE.UU. vs Chile)</li>
             <li className="completado">🟢 Módulo 5: Responsabilidades Legales del Administrador</li>
             <li className="completado">🟢 Módulo 6: Tratamiento de Datos Sensibles (Ley 19.628)</li>
-            <li className="pendiente">⚪ Módulo 7: Conclusiones del Caso</li>
+            <li className="completado">🟢 Módulo 7: Conclusiones del Caso y Lecciones</li>
             <li className="pendiente">⚪ Módulo 8: Registro de Prompts de IA</li>
           </ul>
         </div>

@@ -1,0 +1,11 @@
+# 07. Conclusiones y Lecciones Aprendidas del Caso
+
+El ciberataque destructivo contra Sony Pictures en 2014 dejó grandes enseñanzas para el ecosistema global de la ciberseguridad, las cuales cobran total vigencia al analizarse bajo el escenario técnico y legal chileno actual:
+
+### 1. Lecciones en Seguridad de la Información
+* **La falacia de la seguridad perimetral:** El caso demostró que depender exclusivamente de cortafuegos (*firewalls*) para proteger el perímetro es insuficiente si los atacantes logran robar credenciales legítimas. Una vez adentro, la falta de segmentación de redes internas facilitó que el malware *wiper* destruyera miles de servidores sin oposición.
+* **La criticidad de los respaldos desconectados:** Sony poseía respaldos de datos, pero muchos estaban conectados a la misma red centralizada. Al desplegarse el malware, los respaldos también fueron borrados de manera irreversible. Se vuelve mandatorio aplicar políticas estrictas como la regla **3-2-1** (3 copias, 2 medios distintos, 1 almacenamiento totalmente desconectado o *offline*).
+
+### 2. Reflexión sobre el Marco Legal Chileno Actuál
+* **Madurez penal versus debilidad civil:** Con la promulgación de la **Ley N° 21.459**, Chile hoy cuenta con herramientas penales robustas y alineadas al Convenio de Budapest para tipificar adecuadamente el sabotaje o los accesos ilícitos de este calibre. Sin embargo, el marco de protección de datos de la **Ley N° 19.628** aún mantiene brechas respecto a las multas comerciales exigibles a empresas negligentes que pierden datos de sus trabajadores.
+* **El rol estratégico del Administrador de Seguridad:** Para un analista o administrador de infraestructura, la seguridad ya no es solo un asunto de instalar antivirus; es una obligación de cumplimiento legal. Mantener un registro exhaustivo de auditorías, cifrar la información sensible en reposo y levantar reportes formales de riesgo a la alta dirección son la única defensa jurídica y laboral ante incidentes catastróficos.
