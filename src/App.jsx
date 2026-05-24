@@ -24,13 +24,13 @@ function App() {
         {/* Estado de la Documentación en docs_munmar/ */}
         <div className="estado-documentos">
           <h3>Progreso del Informe (.md)</h3>
-          <ul className="lista-progreso">
+         <ul className="lista-progreso">
             <li className="completado">🟢 Módulo 1: Resumen Ejecutivo (Sony 2014)</li>
             <li className="completado">🟢 Módulo 2: Marco Normativo Aplicable</li>
             <li className="completado">🟢 Módulo 3: Tipificación de Delitos (Ley 21.459)</li>
             <li className="completado">🟢 Módulo 4: Comparación de Marcos (EE.UU. vs Chile)</li>
             <li className="completado">🟢 Módulo 5: Responsabilidades Legales del Administrador</li>
-            <li className="pendiente">⚪ Módulo 6: Tratamiento de Datos Sensibles</li>
+            <li className="completado">🟢 Módulo 6: Tratamiento de Datos Sensibles (Ley 19.628)</li>
             <li className="pendiente">⚪ Módulo 7: Conclusiones del Caso</li>
             <li className="pendiente">⚪ Módulo 8: Registro de Prompts de IA</li>
           </ul>
