@@ -1,16 +1,33 @@
-# React + Vite
+# Centro de Análisis de Ciberseguridad - Caso Sony Pictures (2014)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Descripción del Proyecto
+Este proyecto consiste en un **Dashboard Interactivo de Ciberseguridad** desarrollado en React y Vite como parte de la **Evaluación Sumativa N°2** para la asignatura de *Fundamentos de Seguridad de la Información* en **INACAP**. 
 
-Currently, two official plugins are available:
+La aplicación web analiza de manera exhaustiva el ciberataque perpetrado por la APT *Guardians of Peace (GOP)* contra Sony Pictures Entertainment en 2014, estructurando la información en 8 módulos interactivos que contrastan los hechos técnicos con el marco normativo y penal vigente en Chile.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Tecnologías Utilizadas
+* **Framework Principal:** React.js (Componentes funcionales y estado dinámico con `useState`)
+* **Herramienta de Construcción:** Vite (Entorno de desarrollo rápido)
+* **Estilizado:** CSS3 con variables globales (`:root`) y diseño responsivo adaptado para múltiples dispositivos
+* **Despliegue Continuo (CI/CD):** Vercel integrado con GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📁 Estructura del Repositorio
+El proyecto mantiene una organización limpia y estandarizada:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+informe_munmar/
+├── docs_munmar/          # Documentación de respaldo del informe (.md)
+├── public/               # Archivos públicos y recursos vectoriales (SVG)
+├── src/
+│   ├── assets/           # Recursos visuales del proyecto
+│   ├── App.css           # Estilos base
+│   ├── App.jsx           # Código principal y lógica de los 8 módulos del Dashboard
+│   ├── index.css         # Estilos globales y reseteo CSS
+│   └── main.jsx          # Punto de entrada de React
+├── index.html            # Archivo HTML principal
+├── package.json          # Gestión de dependencias y scripts de Node
+└── vite.config.js        # Configuración del entorno de Vite
