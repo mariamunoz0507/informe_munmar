@@ -1055,7 +1055,7 @@ function App() {
 
           <div className="tarjeta-alumno">
             <p className="alumno-titulo">Autor del Informe</p>
-            <p className="alumno-nombre">M. Muñoz & M. Martínez</p>
+            <p className="alumno-nombre">Maria Jose Muñoz Matta</p>
             <p className="alumno-carrera">Analista Programador / Inacap</p>
           </div>
         </aside>
