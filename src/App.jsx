@@ -828,34 +828,42 @@ function App() {
 
           <div className="cronologia-delitos">
             <div className="delito-item">
-              <div className="delito-numero">Art. 1</div>
+              <div className="delito-numero">Art. 1°</div>
               <div className="delito-detalle">
                 <h4>Acceso Ilícito</h4>
-                <p>Se configura en el momento exacto en que los atacantes superaron las medidas de seguridad perimetrales (firewalls e identidades administrativas robadas) para ingresar a los repositorios de SPE sin autorización expresa.</p>
+                <p>Se configura cuando los atacantes superaron las medidas de seguridad perimetrales mediante credenciales administrativas robadas por spear-phishing, ingresando sin autorización a los repositorios internos de SPE durante meses de forma encubierta.</p>
               </div>
             </div>
 
             <div className="delito-item">
-              <div className="delito-numero">Art. 2</div>
+              <div className="delito-numero">Art. 2° inc. 1</div>
               <div className="delito-detalle">
-                <h4>Interrupción de Sistemas Informáticos</h4>
-                <p>Por obstaculizar gravemente el funcionamiento normal del sistema mediante la inyección del wiper, forzando la desconexión total de la infraestructura de Sony a nivel mundial por varias semanas.</p>
+                <h4>Interrupción o Entorpecimiento de Sistema Informático</h4>
+                <p>Aplica por la inyección del wiper Destover que sobrescribió el MBR de más de 3.000 equipos, forzando la desconexión total de la infraestructura de Sony a nivel mundial durante varias semanas.</p>
               </div>
             </div>
 
             <div className="delito-item">
-              <div className="delito-numero">Art. 3</div>
+              <div className="delito-numero">Art. 3° inc. 1</div>
               <div className="delito-detalle">
-                <h4>Ataque a la Integridad de los Datos (Sabotaje)</h4>
-                <p>Sanciona penalmente la destrucción, alteración o borrado de datos lógicos. Aplica de forma directa por el despliegue del malware wiper <em>Destover</em> que destruyó bases de datos completas y respaldos.</p>
+                <h4>Ataque a la Integridad de los Datos</h4>
+                <p>Sanciona la destrucción, alteración o borrado doloso de datos. Aplica directamente por el despliegue del malware Destover que destruyó bases de datos completas, respaldos y archivos operativos de forma irreversible.</p>
               </div>
             </div>
 
             <div className="delito-item">
-              <div className="delito-numero">Art. 5</div>
+              <div className="delito-numero">Art. 5° inc. 1</div>
               <div className="delito-detalle">
-                <h4>Intercepción Ilícita</h4>
-                <p>Sanciona la captura de transmisiones no públicas de datos en tiempo real. Aplica a la obtención pasiva de correos electrónicos de la directiva de Sony y archivos de tráfico de red antes de su publicación masiva.</p>
+                <h4>Interceptación Ilícita</h4>
+                <p>Sanciona la captura de transmisiones no públicas de datos. Aplica a la obtención de correos electrónicos privados de ejecutivos y archivos de tráfico de red interno antes de su publicación masiva en plataformas P2P.</p>
+              </div>
+            </div>
+
+            <div className="delito-item">
+              <div className="delito-numero">Art. 6° inc. 1</div>
+              <div className="delito-detalle">
+                <h4>Uso de Herramientas Maliciosas</h4>
+                <p>Sanciona la posesión, distribución y uso de programas diseñados para cometer delitos informáticos. Aplica específicamente al malware Destover, herramienta creada con el único fin de destruir sistemas y datos de forma masiva e irreversible.</p>
               </div>
             </div>
           </div>
