@@ -988,18 +988,43 @@ function App() {
       contenido: (
         <div className="detalle-modulo-content animate-fade-in">
           <h2>Módulo 8: Declaración de Co-Creación y Prompts de IA</h2>
-          <p className="lead">Documentación metodológica transparente sobre el diseño del sistema y la interacción con Inteligencia Artificial.</p>
+          <p className="lead">Documentación metodológica transparente sobre el proceso de investigación asistido por IA para el análisis del Caso Sony Pictures Entertainment (2014).</p>
 
           <div className="caja-prompt">
-            <span className="prompt-meta">Prompt de Configuración Local:</span>
-            <p className="prompt-texto">"Deseo inicializar y configurar mi proyecto React de forma limpia y plana directamente en la raíz C:\\informe_munmar para eludir problemas de permisos de administrador en Windows. Dame los comandos Git exactos para realizar el despliegue del repositorio de forma limpia."</p>
+            <span className="prompt-meta">Sección 2.1.1 — Marco Normativo:</span>
+            <p className="prompt-texto">"En el caso Sony Pictures 2014, donde atacantes exfiltraron 100 TB de datos confidenciales, destruyeron sistemas y filtraron información personal de empleados, ¿qué normas nacionales chilenas e internacionales son aplicables? Necesito al menos 4 normas con justificación específica referida a hechos concretos del caso."</p>
           </div>
+          <p style={{fontSize:'12px', color:'var(--cyber-green)', marginBottom:'4px'}}>✔ Corrección: La IA justificó el GDPR de forma genérica. Lo corregí especificando que su aplicabilidad es como marco comparativo, ya que filiales europeas de Sony fueron afectadas.</p>
 
           <div className="caja-prompt">
-            <span className="prompt-meta">Prompt de Ingeniería Legal:</span>
-            <p className="prompt-texto">"Redacta detalladamente el análisis técnico de ciberseguridad sobre el caso de Sony Pictures Entertainment (2014) estructurado en 8 módulos independientes, tipificando los hechos bajo los artículos específicos de la Ley chilena 21.459 e incluyendo las obligaciones de la Ley 19.628 de protección de datos sensibles."</p>
+            <span className="prompt-meta">Sección 2.1.2 — Tipificación Ley 21.459:</span>
+            <p className="prompt-texto">"Analiza las siguientes acciones del ataque a Sony Pictures 2014: (1) instalación del malware Destover para destruir discos duros, (2) exfiltración de 100 TB de datos, (3) acceso no autorizado a la red corporativa. Tipifica cada acción según artículos específicos de la Ley 21.459 chilena, indicando número de artículo e inciso cuando corresponda."</p>
           </div>
+          <p style={{fontSize:'12px', color:'var(--cyber-green)', marginBottom:'4px'}}>✔ Corrección: La IA omitió el Art. 6° sobre herramientas maliciosas. Lo agregué porque el malware Destover encuadra directamente en ese artículo.</p>
+
+        <div className="caja-prompt">
+          <span className="prompt-meta">Sección 2.1.3 — Comparación de Marcos:</span>
+          <p className="prompt-texto">"Crea una tabla comparativa de marcos regulatorios aplicables al sector entretenimiento como Sony Pictures. Incluye al menos 3 marcos (Ley 21.459, GDPR, CCPA) comparados en 3 ejes: alcance territorial, tipo de sanción y sujeto regulado. Agrega una columna de aplicabilidad al caso Sony Pictures 2014."</p>
         </div>
+        <p style={{fontSize:'12px', color:'var(--cyber-green)', marginBottom:'4px'}}>✔ Corrección: La primera respuesta tenía solo 2 ejes y sin columna de aplicabilidad. Solicité segunda iteración para completar la tabla según la rúbrica.</p>
+
+      <div className="caja-prompt">
+        <span className="prompt-meta">Sección 2.1.4 — Responsabilidades Legales:</span>
+        <p className="prompt-texto">"En el caso Sony Pictures 2014, identifica al menos 3 actores (atacantes, empresa Sony, ejecutivos, terceros) y para cada uno analiza qué tipo de responsabilidad legal les corresponde: penal, civil o administrativa. Cita la norma o artículo específico que fundamenta cada atribución."</p>
+      </div>
+      <p style={{fontSize:'12px', color:'var(--cyber-green)', marginBottom:'4px'}}>✔ Corrección: La IA fusionó Sony y sus ejecutivos como un solo actor. Los separé porque tienen responsabilidades distintas: Sony responde administrativamente y los ejecutivos por negligencia civil.</p>
+
+      <div className="caja-prompt">
+        <span className="prompt-meta">Sección 2.1.5 — Datos Personales Ley 19.628:</span>
+        <p className="prompt-texto">"En el ataque a Sony Pictures 2014 se filtraron datos de empleados (RUT, salarios), correos privados y películas no estrenadas. Clasifica estos datos según la Ley 19.628 distinguiendo personales de sensibles. Analiza qué derechos ARCO (Acceso, Rectificación, Cancelación, Oposición) fueron afectados, citando el artículo correspondiente."</p>
+      </div>
+      <p style={{fontSize:'12px', color:'var(--cyber-green)', marginBottom:'4px'}}>✔ Corrección: La IA solo desarrolló Acceso y Cancelación. Agregué Rectificación (Art. 12) y Oposición para cumplir el mínimo de 3 derechos ARCO exigidos.</p>
+
+      <div className="caja-destacada">
+        <h4>Reflexión Final: Uso de IA como Agente vs. Chatbot</h4>
+        <p>Usé la IA principalmente como <strong>chatbot</strong>: formulaba preguntas específicas por sección y evaluaba críticamente cada respuesta antes de incorporarla. La diferencia con un <strong>agente</strong> es que este actúa autónomamente sin supervisión. En mi proceso, cada prompt fue diseñado con un objetivo concreto y cada respuesta fue corregida con mi propio criterio, como evidencian las correcciones documentadas.</p>
+      </div>
+    </div>
       )
     }
   ]
