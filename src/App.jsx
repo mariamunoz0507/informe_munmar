@@ -1025,11 +1025,12 @@ function App() {
               </div>
             </div>
 
-            <div className="tarjeta-ley">
-              <div className="ley-header especial">Oposición — Art. 12 Ley 19.628</div>
+            <<div className="tarjeta-ley">
+              <div className="ley-header especial">Oposicion — Art. 12 Ley 19.628</div>
               <div className="ley-body">
-                <p>Los titulares tienen derecho a oponerse al tratamiento de sus datos. Este
-        </div>
+                <p>Los titulares tienen derecho a oponerse al tratamiento de sus datos. Este derecho fue vulnerado al exponerse datos medicos y financieros sin consentimiento de los empleados afectados.</p>
+              </div>
+            </div>
       )
     },
     {
