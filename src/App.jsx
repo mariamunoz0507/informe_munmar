@@ -877,33 +877,48 @@ function App() {
       categoria: "Estudio Comparativo",
       contenido: (
         <div className="detalle-modulo-content animate-fade-in">
-          <h2>Módulo 4: Comparación de Marcos Legales (EE.UU. vs Chile)</h2>
-          <p className="lead">Contraste de las diferencias de enfoque sobre cómo abordan las brechas de seguridad.</p>
+          <h2>Módulo 4: Comparación de Marcos Regulatorios por Industria</h2>
+          <p className="lead">Tabla comparativa de tres marcos legales aplicables al sector entretenimiento/medios, con análisis de aplicabilidad directa al caso Sony Pictures 2014.</p>
 
           <div className="tabla-responsiva">
             <table className="tabla-comparativa">
               <thead>
                 <tr>
                   <th>Eje de Análisis</th>
-                  <th>Sistema Angloamericano (EE.UU.)</th>
-                  <th>Sistema Chileno (Leyes 21.459 / 19.628)</th>
+                  <th>Ley 21.459 (Chile)</th>
+                  <th>GDPR (Unión Europea)</th>
+                  <th>CCPA (California, EE.UU.)</th>
+                  <th>Aplicabilidad al Caso Sony</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><strong>Base Penal Informática</strong></td>
-                  <td>Regulado por la <em>Computer Fraud and Abuse Act (CFAA)</em>, enfocada fuertemente en daños económicos tasables corporativos.</td>
-                  <td>Regulado por la <em>Ley 21.459</em>, enfocada en proteger la integridad y disponibilidad de los sistemas como bien jurídico abstracto.</td>
+                  <td><strong>Alcance Territorial</strong></td>
+                  <td>Nacional — aplica a delitos cometidos en Chile o con efectos en Chile.</td>
+                  <td>Extraterritorial — aplica a toda entidad que trate datos de ciudadanos europeos.</td>
+                  <td>Estatal — aplica a empresas que recopilan datos de residentes de California con ingresos superiores a 25 MM USD.</td>
+                  <td>Sony tiene filiales en Chile y Europa, y opera en California. Los tres marcos son concurrentemente aplicables.</td>
                 </tr>
                 <tr>
-                  <td><strong>Estructura Regulatoria</strong></td>
-                  <td>Fragmentación por industrias y estados (HIPAA para salud, GLBA para servicios financieros, CCPA en California).</td>
-                  <td>Estructura unificada con regulaciones de ciberdelincuencia penal idénticas y centralizadas para todo el país.</td>
+                  <td><strong>Tipo de Sanción</strong></td>
+                  <td>Penal: presidio menor en sus grados medio a máximo (Art. 1°–6°). Multa hasta 50 UTM por Ley 19.628.</td>
+                  <td>Administrativa: multas de hasta 20 millones de euros o el 4% de la facturación global anual.</td>
+                  <td>Civil: multas de hasta USD 7.500 por infracción intencional por consumidor afectado.</td>
+                  <td>Sony fue sancionada civilmente en EE.UU. Una brecha así hoy activaría multas GDPR millonarias por datos de empleados europeos filtrados.</td>
                 </tr>
                 <tr>
-                  <td><strong>Notificación de Brechas</strong></td>
-                  <td>Obligatoriedad federal e inmediata de reportar incidentes que involucren datos personales.</td>
-                  <td>En transición legislativa a través del CSIRT nacional y futuras normativas unificadas de protección de datos.</td>
+                  <td><strong>Sujeto Regulado</strong></td>
+                  <td>Personas naturales que cometan delitos informáticos. Empresas responden civilmente.</td>
+                  <td>Toda organización pública o privada que actúe como responsable del tratamiento de datos personales.</td>
+                  <td>Empresas con fines de lucro que recopilen datos de consumidores residentes en California.</td>
+                  <td>Sony como empresa es sujeto regulado bajo GDPR y CCPA. Los atacantes (GOP) son sujetos bajo Ley 21.459.</td>
+                </tr>
+                <tr>
+                  <td><strong>Notificación de Brecha</strong></td>
+                  <td>No existe obligación expresa en Ley 19.628 vigente. En tramitación legislativa.</td>
+                  <td>Obligatoria en 72 horas desde que se detecta la brecha (Art. 33 GDPR).</td>
+                  <td>Obligatoria sin demora razonable a los consumidores afectados (Cal. Civ. Code § 1798.82).</td>
+                  <td>Sony tardó días en notificar. Bajo GDPR esto habría generado sanción adicional por incumplimiento del plazo de 72 horas.</td>
                 </tr>
               </tbody>
             </table>
