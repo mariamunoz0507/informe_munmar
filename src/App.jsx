@@ -1286,7 +1286,7 @@ function App() {
         <p className="footer-copyright">© 2026 - Informe Técnico de Ciberseguridad • Analistas Programadores</p>
         <a href="https://github.com/mariamunoz0507/informe_munmar" target="_blank" rel="noreferrer" style={{color:"#0ea5e9", fontSize:"12px", fontWeight:"600", textDecoration:"none"}}>📂 Ver Repositorio en GitHub →</a>
       </footer>
-    </div>
+      </div>
     </div>
   )
 }
