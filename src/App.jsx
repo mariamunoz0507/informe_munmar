@@ -938,7 +938,7 @@ function App() {
 
           <div className="cronologia-delitos">
             <div className="delito-item">
-              <div className="delito-numero" style={{backgroundColor:'rgba(239,68,68,0.15)', color:'#ef4444'}}>Atacantes (GOP)</div>
+              <div className="delito-numero" style={{backgroundColor:"rgba(239,68,68,0.15)", color:"#ef4444"}}>Atacantes (GOP)</div>
               <div className="delito-detalle">
                 <h4>Responsabilidad Penal</h4>
                 <p><strong>Penal:</strong> Responsables directos de los delitos tipificados en los Art. 1°, 2°, 3°, 5° y 6° de la Ley 21.459. Arriesgan presidio menor en su grado medio a máximo (541 días a 5 años) por acceso ilícito, sabotaje y uso de herramientas maliciosas.</p>
@@ -947,7 +947,7 @@ function App() {
             </div>
 
             <div className="delito-item">
-              <div className="delito-numero" style={{backgroundColor:'rgba(14,165,233,0.15)', color:'#0ea5e9'}}>Sony Pictures (Empresa)</div>
+              <div className="delito-numero" style={{backgroundColor:"rgba(16,185,129,0.15)", color:"#10b981"}}>Ejecutivos de Sony</div>
               <div className="delito-detalle">
                 <h4>Responsabilidad Civil y Administrativa</h4>
                 <p><strong>Civil:</strong> Responsable ante sus empleados cuyos datos sensibles (RUT, salarios, historial médico) fueron expuestos por no implementar medidas de seguridad adecuadas, conforme al Art. 23 de la Ley 19.628 que obliga a indemnizar daños por tratamiento indebido de datos.</p>
@@ -956,8 +956,7 @@ function App() {
             </div>
 
             <div className="delito-item">
-              <div className="delito-numero" style={backgroundColor:'rgba(16,185,129,0.15)', color:'#10b981'}>Ejecutivos de Sony</div>
-              <div className="delito-detalle">
+              <div className="delito-numero" style={{backgroundColor:"rgba(16,185,129,0.15)", color:"#10b981"}}>Ejecutivos de Sony</div>
                 <h4>Responsabilidad Civil por Negligencia</h4>
                 <p><strong>Civil:</strong> Los directivos que omitieron implementar medidas básicas de seguridad (cifrado, MFA, segmentación de red) responden por culpa infraccional conforme al Art. 2329 del Código Civil, al haber generado condiciones que facilitaron el ataque.</p>
                 <p><strong>Administrativa:</strong> Bajo el Art. 160 N°7 del Código del Trabajo, los ejecutivos de TI que incumplieron gravemente sus obligaciones contractuales de seguridad pueden ser desvinculados sin indemnización.</p>
