@@ -946,12 +946,12 @@ function App() {
               </div>
             </div>
 
-            <div className="delito-item">
-              <div className="delito-numero" style={{backgroundColor:"rgba(16,185,129,0.15)", color:"#10b981"}}>Ejecutivos de Sony</div>
+           <div className="delito-item">
+              <div className="delito-numero" style={{backgroundColor:"rgba(14,165,233,0.15)", color:"#0ea5e9"}}>Sony Pictures (Empresa)</div>
               <div className="delito-detalle">
                 <h4>Responsabilidad Civil y Administrativa</h4>
-                <p><strong>Civil:</strong> Responsable ante sus empleados cuyos datos sensibles (RUT, salarios, historial médico) fueron expuestos por no implementar medidas de seguridad adecuadas, conforme al Art. 23 de la Ley 19.628 que obliga a indemnizar daños por tratamiento indebido de datos.</p>
-                <p><strong>Administrativa:</strong> Sujeta a sanciones del Consejo para la Transparencia por incumplimiento de deberes de custodia de datos personales establecidos en la Ley 19.628, con multas de hasta 50 UTM por infracción.</p>
+                <p><strong>Civil:</strong> Responsable ante sus empleados cuyos datos sensibles (RUT, salarios, historial médico) fueron expuestos, conforme al Art. 23 de la Ley 19.628 que obliga a indemnizar daños por tratamiento indebido de datos personales.</p>
+                <p><strong>Administrativa:</strong> Sujeta a sanciones por incumplimiento de deberes de custodia de datos personales establecidos en la Ley 19.628, con multas de hasta 50 UTM por infracción.</p>
               </div>
             </div>
 
