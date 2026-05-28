@@ -972,18 +972,63 @@ function App() {
       categoria: "Protección de Datos",
       contenido: (
         <div className="detalle-modulo-content animate-fade-in">
-          <h2>Módulo 6: Tratamiento de Datos Sensibles (Ley N° 19.628)</h2>
-          <p className="lead">Estudio de los deberes y debilidades del resguardo de información personal íntima expuesta durante la brecha.</p>
+          <h2>Módulo 6: Tratamiento de Datos Personales (Ley N° 19.628)</h2>
+          <p className="lead">Clasificación de los datos comprometidos en el caso Sony Pictures 2014, distinción entre datos personales y sensibles, y análisis de los derechos ARCO afectados.</p>
 
-          <p>La Ley N° 19.628 en Chile define explícitamente como <strong>"Datos Sensibles"</strong> aquellos antecedentes que se refieren a las características físicas o morales de las personas, estados de salud física o psíquica, e información de la vida privada íntima (como registros médicos y nóminas de salarios filtrados en el caso de Sony).</p>
+          <h3>Tipos de Datos Comprometidos</h3>
+          <div className="cronologia-delitos">
+            <div className="delito-item">
+              <div className="delito-numero" style={{backgroundColor:"rgba(14,165,233,0.15)", color:"#0ea5e9"}}>Tipo 1</div>
+              <div className="delito-detalle">
+                <h4>Datos Personales de Empleados</h4>
+                <p>Nombres completos, RUT, direcciones, números de seguro social y salarios de más de 4.000 empleados. Clasificados como <strong>datos personales</strong> según el Art. 2° letra f) de la Ley 19.628, ya que permiten identificar directamente a personas naturales.</p>
+              </div>
+            </div>
 
-          <h3>Obligaciones de Custodia y Sanciones</h3>
-          <p>El almacenamiento de estos datos de salud o financieros sin cifrado criptográfico robusto en servidores perimetrales constituye un incumplimiento directo a la obligación de secreto de custodia de datos.</p>
+            <div className="delito-item">
+              <div className="delito-numero" style={{backgroundColor:"rgba(239,68,68,0.15)", color:"#ef4444"}}>Tipo 2</div>
+              <div className="delito-detalle">
+                <h4>Datos Sensibles — Historial Médico</h4>
+                <p>Registros médicos completos de empleados incluyendo diagnósticos y tratamientos. Clasificados como <strong>datos sensibles</strong> según el Art. 2° letra g) de la Ley 19.628, por referirse al estado de salud física y psíquica de las personas. Su tratamiento requiere consentimiento expreso y por escrito.</p>
+              </div>
+            </div>
 
-          <div className="caja-destacada advertencia">
-            <h4>Brechas en el Régimen Sancionatorio Chileno</h4>
-            <p>La Ley 19.628 vigente contempla penalizaciones financieras sumamente limitadas (techos máximos de 50 UTM). No obstante, los actuales proyectos de reforma buscan alinear la normativa chilena con el estándar europeo GDPR, incorporando multas millonarias y exigiendo de forma obligatoria el cifrado en tránsito y reposo para resguardar estos activos.</p>
+            <div className="delito-item">
+              <div className="delito-numero" style={{backgroundColor:"rgba(16,185,129,0.15)", color:"#10b981"}}>Tipo 3</div>
+              <div className="delito-detalle">
+                <h4>Datos Sensibles — Comunicaciones Privadas</h4>
+                <p>Correos electrónicos privados de ejecutivos con contenido confidencial de negocios y opiniones personales. Clasificados como <strong>datos sensibles</strong> según el Art. 2° letra g) de la Ley 19.628, por pertenecer a la esfera de la vida privada íntima de las personas.</p>
+              </div>
+            </div>
           </div>
+
+          <h3>Derechos ARCO Afectados</h3>
+          <div className="leyes-flex-container">
+            <div className="tarjeta-ley">
+              <div className="ley-header">Acceso — Art. 12 Ley 19.628</div>
+              <div className="ley-body">
+                <p>Los empleados tienen derecho a saber qué datos suyos posee Sony y cómo los usa. La filtración masiva vulneró este derecho al hacer los datos accesibles a terceros no autorizados sin conocimiento de los titulares.</p>
+              </div>
+            </div>
+
+            <div className="tarjeta-ley">
+              <div className="ley-header">Rectificación — Art. 12 Ley 19.628</div>
+              <div className="ley-body">
+                <p>Los titulares tienen derecho a corregir datos inexactos. Una vez filtrados públicamente, este derecho se vuelve inejercible ya que Sony perdió el control sobre los datos publicados en plataformas externas.</p>
+              </div>
+            </div>
+
+            <div className="tarjeta-ley">
+              <div className="ley-header">Cancelación — Art. 12 Ley 19.628</div>
+              <div className="ley-body">
+                <p>Los titulares tienen derecho a eliminar sus datos cuando no sean necesarios. La filtración hizo imposible ejercer este derecho al distribuirse los datos de forma irreversible en redes P2P y sitios de filtración.</p>
+              </div>
+            </div>
+
+            <div className="tarjeta-ley">
+              <div className="ley-header especial">Oposición — Art. 12 Ley 19.628</div>
+              <div className="ley-body">
+                <p>Los titulares tienen derecho a oponerse al tratamiento de sus datos. Este
         </div>
       )
     },
