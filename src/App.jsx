@@ -1036,7 +1036,6 @@ function App() {
             <h4>Limitaciones del Regimen Sancionatorio Chileno</h4>
             <p>La Ley 19.628 vigente contempla multas maximas de 50 UTM, muy por debajo del estandar GDPR. Los proyectos de reforma buscan incorporar multas proporcionales al dano causado y obligacion expresa de cifrado de datos sensibles en transito y reposo.</p>
           </div>
-        </div>
       )
     },
     {
