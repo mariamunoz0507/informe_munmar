@@ -933,21 +933,37 @@ function App() {
       categoria: "Área Técnica",
       contenido: (
         <div className="detalle-modulo-content animate-fade-in">
-          <h2>Módulo 5: Responsabilidades del Administrador de Seguridad</h2>
-          <p className="lead">Riesgos laborales, contractuales y civiles que asume el equipo encargado de salvaguardar la infraestructura informática.</p>
+         <h2>Módulo 5: Responsabilidades Legales de los Actores</h2>
+          <p className="lead">Identificación de los actores involucrados en el caso Sony Pictures 2014 y análisis de sus responsabilidades penales, civiles y administrativas según la legislación chilena.</p>
 
-          <div className="alerta-caja">
-            <h4>Implicancias Laborales y Contractuales (Código del Trabajo)</h4>
-            <p>Bajo la legislación laboral chilena, el administrador de seguridad o jefe de TI que incurra en omisiones graves de sus deberes técnicos esenciales (por ejemplo, omitir la instalación de parches críticos conocidos o mantener credenciales compartidas en texto plano) arriesga el despido inmediato amparado en el <strong>Artículo 160 N°7 del Código del Trabajo</strong> ("Incumplimiento grave de las obligaciones que impone el contrato"), perdiendo el derecho a indemnizaciones.</p>
+          <div className="cronologia-delitos">
+            <div className="delito-item">
+              <div className="delito-numero" style={{backgroundColor:'rgba(239,68,68,0.15)', color:'#ef4444'}}>Atacantes (GOP)</div>
+              <div className="delito-detalle">
+                <h4>Responsabilidad Penal</h4>
+                <p><strong>Penal:</strong> Responsables directos de los delitos tipificados en los Art. 1°, 2°, 3°, 5° y 6° de la Ley 21.459. Arriesgan presidio menor en su grado medio a máximo (541 días a 5 años) por acceso ilícito, sabotaje y uso de herramientas maliciosas.</p>
+                <p><strong>Civil:</strong> Obligados a indemnizar los perjuicios causados conforme al Art. 2314 del Código Civil chileno, incluyendo daño emergente (pérdida de sistemas) y lucro cesante (películas filtradas antes de su estreno).</p>
+              </div>
+            </div>
+
+            <div className="delito-item">
+              <div className="delito-numero" style={{backgroundColor:'rgba(14,165,233,0.15)', color:'#0ea5e9'}}>Sony Pictures (Empresa)</div>
+              <div className="delito-detalle">
+                <h4>Responsabilidad Civil y Administrativa</h4>
+                <p><strong>Civil:</strong> Responsable ante sus empleados cuyos datos sensibles (RUT, salarios, historial médico) fueron expuestos por no implementar medidas de seguridad adecuadas, conforme al Art. 23 de la Ley 19.628 que obliga a indemnizar daños por tratamiento indebido de datos.</p>
+                <p><strong>Administrativa:</strong> Sujeta a sanciones del Consejo para la Transparencia por incumplimiento de deberes de custodia de datos personales establecidos en la Ley 19.628, con multas de hasta 50 UTM por infracción.</p>
+              </div>
+            </div>
+
+            <div className="delito-item">
+              <div className="delito-numero" style={{backgroundColor:'rgba(16,185,129,0.15)', color:'#10b981'}}>Ejecutivos de Sony</div>
+              <div className="delito-detalle">
+                <h4>Responsabilidad Civil por Negligencia</h4>
+                <p><strong>Civil:</strong> Los directivos que omitieron implementar medidas básicas de seguridad (cifrado, MFA, segmentación de red) responden por culpa infraccional conforme al Art. 2329 del Código Civil, al haber generado condiciones que facilitaron el ataque.</p>
+                <p><strong>Administrativa:</strong> Bajo el Art. 160 N°7 del Código del Trabajo, los ejecutivos de TI que incumplieron gravemente sus obligaciones contractuales de seguridad pueden ser desvinculados sin indemnización.</p>
+              </div>
+            </div>
           </div>
-
-          <h3>Eximentes y Buenas Prácticas de Defensa Jurídica</h3>
-          <p>Para eximirse de responsabilidad civil ante demandas de la empresa por pérdidas de datos, el administrador debe documentar un estándar de debida diligencia comprobable:</p>
-          <ul>
-            <li><strong>Bitácora de Riesgos:</strong> Reportes formales periódicos a la alta gerencia sobre el estado de la seguridad de la información y la urgencia de aplicar parches, especialmente si se dejasen de lado por falta de presupuesto.</li>
-            <li><strong>Cumplimiento de Estándares:</strong> Acreditar que todos los controles de la red se gestionaban activamente bajo marcos normativos internacionales, como la norma ISO/IEC 27001 o controles CIS.</li>
-          </ul>
-        </div>
       )
     },
     {
