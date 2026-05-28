@@ -956,7 +956,7 @@ function App() {
             </div>
 
             <div className="delito-item">
-              <div className="delito-numero" style={{backgroundColor:'rgba(16,185,129,0.15)', color:'#10b981'}}>Ejecutivos de Sony</div>
+              <div className="delito-numero" style={{backgroundColor:'rgba(16,185,129,0.15)', color:'#10b981'}>Ejecutivos de Sony</div>
               <div className="delito-detalle">
                 <h4>Responsabilidad Civil por Negligencia</h4>
                 <p><strong>Civil:</strong> Los directivos que omitieron implementar medidas básicas de seguridad (cifrado, MFA, segmentación de red) responden por culpa infraccional conforme al Art. 2329 del Código Civil, al haber generado condiciones que facilitaron el ataque.</p>
