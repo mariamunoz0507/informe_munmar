@@ -1,15 +1,15 @@
 # 08. Registro de Prompts y Uso de Inteligencia Artificial
 
-De acuerdo con las buenas prácticas académicas y las directrices de la asignatura, se presenta el registro de interacción con la Inteligencia Artificial (IA) utilizada como asistente metodológico para el diseño técnico de este proyecto:
+Tratamiento de Datos Personales (Ley 19.628)
+Prompt utilizado:
 
-### 1. Prompts de Estructura y Configuración del Entorno
-* **Instrucción:** *"Necesito crear un proyecto estructurado con Vite y React en la raíz del disco C: para evitar restricciones de permisos en Windows, y configurarlo con Git apuntando a mi repositorio de GitHub."*
-* **Resultado:** Configuración limpia en la ruta `C:\informe_munmar`, asegurando el flujo de comandos CMD básicos e inicialización exitosa de Git sin bloqueos del sistema operativo.
+"En el ataque a Sony Pictures 2014 se filtraron: datos personales de empleados (RUT, salarios, números de seguro social), correos privados de ejecutivos y películas no estrenadas. Clasifica estos datos según la Ley 19.628 chilena distinguiendo datos personales de datos sensibles. Luego analiza qué derechos ARCO (Acceso, Rectificación, Cancelación, Oposición) fueron afectados, citando el artículo de la ley que corresponde a cada derecho."
 
-### 2. Prompts de Diseño del Sistema y Estilos
-* **Instrucción:** *"Quiero simplificar la arquitectura del software. Elimina las subcarpetas complejas y trabaja todos los archivos de React directo en la carpeta 'src/'. Además, no utilices frameworks externos como Tailwind; diseña una portada minimalista, oscura y elegante usando estrictamente CSS tradicional puro (.css)."*
-* **Resultado:** Creación de una interfaz fluida basada en flexbox y CSS nativo en `App.css`, garantizando que la visualización sea idéntica y compatible en cualquier entorno de revisión.
+Respuesta de la IA: Clasificó los datos correctamente pero al analizar los derechos ARCO solo desarrolló Acceso y Cancelación, omitiendo Rectificación y Oposición.
+Corrección realizada: Complementé el análisis con los derechos de Rectificación (Art. 12 Ley 19.628) y Oposición, explicando cómo la filtración afecta estos derechos al hacer los datos irrecuperablemente públicos.
+Justificación de la corrección: La rúbrica exige analizar al menos 3 de los 4 derechos ARCO con cita de artículo. La respuesta inicial solo cubría 2.
 
-### 3. Prompts de Redacción Técnica del Caso y Legislación
-* **Instrucción:** *"Ayúdame a redactar el análisis técnico del Caso Sony Pictures (2014) estructurado en módulos Markdown independientes (.md). El enfoque debe aplicar y tipificar los hechos según los artículos específicos de la legislación chilena actual: Ley N° 21.459 (Delitos Informáticos), Ley N° 19.628 (Protección de Datos Sensibles) y el Convenio de Budapest para la cooperación transfronteriza."*
-* **Resultado:** Generación de los 7 módulos de contenido técnico alojados en la carpeta `docs_munmar/`, cumpliendo a cabalidad con el rigor normativo exigido en la rúbrica de evaluación.
+Reflexión Final: Uso de IA como Agente vs. Chatbot
+A lo largo de este trabajo utilicé la IA principalmente como chatbot, es decir, como un asistente al que yo formulaba preguntas específicas por sección y evaluaba críticamente cada respuesta antes de incorporarla al informe.
+La diferencia con el uso como agente es significativa: un agente actúa de forma autónoma, toma decisiones y ejecuta tareas en cadena sin supervisión humana constante. En cambio, en mi proceso cada prompt fue diseñado con un objetivo concreto, y cada respuesta fue revisada, corregida o complementada con mi propio criterio.
+Las correcciones documentadas en este registro son evidencia de que la IA no fue usada como sustituto del análisis propio, sino como herramienta de apoyo. Los errores de la IA —omisión de artículos, justificaciones genéricas, actores no diferenciados— fueron detectados y corregidos porque yo tenía claridad sobre lo que la rúbrica exigía y sobre los hechos concretos del caso.
